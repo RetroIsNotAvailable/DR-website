@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+body{
+    background-color: #dbd8e3;
+}
+.head{
+    width: 40%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.DR {
+    color: #dbd8e3;
+    text-shadow: 2px 0px 5px rgb(0, 0, 0);
+    font-size: 40px;
+}
+.head2{
+    width: 40%;
+    height: 70px;
+    display: flex;
+    background-color: rgba(146, 146, 146, 0);
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dc{
+    margin: 0 10px;
+    font-style: normal;
+    font-size: 30px !important;
+    text-decoration: none;
+    color: #dbd8e3;
+    text-shadow: 2px 0px 5px rgb(0, 0, 0) !important;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 150px;
+}
+.ilt{
+    margin: 0 10px;
+    font-style: normal;
+    font-size: 30px !important;
+    text-decoration: none;
+    color: #dbd8e3;
+    text-shadow: 2px 0px 5px rgb(0, 0, 0) !important;
+    font-family: 'Times New Roman', Times, serif
+}
+.üstdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.orta{
+    width: 70%;
+    height: 450px;
+    background-color: #5c5470;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    border: 2px solid #342d44;
+    display: flex;
+}
+.dccik{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 2px solid #342d44;
+    transition: 400ms ease;
+}
+.başlık{
+    font-size: 50px;
+    font-family: "Spartan",sans-serif;
+    margin-top: 35px;
+    margin-left: 40px;
+    color: #7289DA;
+    text-shadow: 2px 0px 5px rgb(0, 0, 0);
+    ;
+}
+.yazı{
+    font-size: 30px;
+    margin-top: 25px;
+    color: #dbd8e3;
+}
+.prd{
+    width: 40%;
+    height: 100px;
+    background-color: #5c5470;
+    margin-left: 110px;
+    border: 2px solid #342d44;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prd2{
+    width: 40%;
+    height: 100px;
+    background-color: #5c5470;
+    margin-left: 80px;
+    border: 2px solid #342d44;
+    border-radius: 20px;
+    box-shadow: 0 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flx{
+    width: 80%;
+    display: flex;
+    margin-top: 30px;
+}
+.gy{
+    cursor: pointer;
+    font-size: 35px;
+    color: #dbd8e3;
+    text-decoration: none;
+    text-shadow: 2px 0px 5px rgb(0, 0, 0);
+    transition: 400ms ease;
+}
+.gy:hover{
+    color: #7289DA;
+    font-size: 30px;
+}
+.dccik:hover{
+    transform: scale(1.1);
+}
